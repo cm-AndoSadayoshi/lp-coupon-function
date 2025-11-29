@@ -1,0 +1,11 @@
+{
+    "name": "lp-coupon-asset",
+    "version": "1.0.0",
+    "description": "Coupon Asset LP",
+    "scripts": {
+        "build": "mkdir -p public && cp index.html style.css script.js public/"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
