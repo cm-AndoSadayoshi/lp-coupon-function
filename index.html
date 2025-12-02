@@ -4,263 +4,245 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>クーポンアセット - 顧客ランクに合わせた自動化 | クラスメソッド</title>
-    <meta name="description" content="小売・飲食・サービス業の販促担当者必見。その『バラマキ販促』、自動化しませんか？顧客の成長に合わせて『LINE・決済・自社』クーポンを最適化する次世代会員証">
+    <title>クーポンアセット | グロースパック for LINE</title>
+    <meta name="description" content="LINEクーポンの「限界」を突破する。開封率・来店率を最大化する「高機能クーポンアセット」。スクラッチ開発不要で消込管理、抽選機能、高度な分析まで。">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@400;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <span class="logo-text">グロースパック <span class="logo-sub">for <span
+                            class="line-brand">LINE</span></span></span>
+            </div>
+            <nav class="nav">
+                <a href="#contact" class="btn btn-sm btn-primary">お問い合わせ</a>
+            </nav>
+        </div>
+    </header>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="container hero-content">
-            <h1>
-                その『バラマキ販促』、<br><span class="gradient-text">自動化しませんか？</span>
-            </h1>
-            <p>
-                顧客の成長に合わせて『LINE・決済・自社』クーポンを最適化する次世代会員証。<br>
-                クラスメソッドの「グロースパック for LINE」に新機能登場。<br>
-                ご新規様はLINE、リピーターは決済アプリ、常連様は自社アプリへ。<br>
-                最適なルートでロイヤル顧客へ育てます。
-            </p>
-            <div style="margin-bottom: 40px;">
-                <!-- Placeholder for Step-up Illustration -->
-                <div style="display: flex; justify-content: center; align-items: flex-end; gap: 20px; height: 150px;">
-                    <div
-                        style="background: #eee; padding: 20px; border-radius: 10px; text-align: center; width: 100px;">
-                        <span style="font-size: 24px;">📱</span><br>Step 1<br>LINE
-                    </div>
-                    <div
-                        style="background: #ddd; padding: 20px; border-radius: 10px; text-align: center; width: 100px; height: 120px;">
-                        <span style="font-size: 24px;">💳</span><br>Step 2<br>PayPay
-                    </div>
-                    <div
-                        style="background: var(--accent-gradient); color: white; padding: 20px; border-radius: 10px; text-align: center; width: 100px; height: 150px;">
-                        <span style="font-size: 24px;">👑</span><br>Step 3<br>自社App
-                    </div>
-                </div>
-            </div>
-            <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-                <a href="#contact" class="btn btn-primary">資料をダウンロード（無料）</a>
-                <a href="#contact" class="btn"
-                    style="background: white; border: 1px solid var(--border-color);">導入相談はこちら</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Problem Section -->
-    <section class="section" style="background-color: var(--surface-color);">
-        <div class="container">
-            <div class="intro-header reveal">
-                <h2>こんな<span class="gradient-text">「クーポンの悩み」</span>で、<br>利益と時間を浪費していませんか？</h2>
-            </div>
-            <div class="comparison-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
-                <div class="comparison-card reveal">
-                    <span class="card-badge" style="background: #fee2e2; color: #ef4444;">Cost</span>
-                    <h3>手数料が重い…</h3>
-                    <p style="color: var(--text-secondary);">常連客まで「手数料のかかる決済アプリのクーポン」を使ってしまい、利益率が上がらない。</p>
-                </div>
-                <div class="comparison-card reveal">
-                    <span class="card-badge" style="background: #fef3c7; color: #f59e0b;">Operation</span>
-                    <h3>レジ前が混雑…</h3>
-                    <p style="color: var(--text-secondary);">「LINE？アプリ？PayPay？」お客様がどれを出せばいいか迷い、会計に時間がかかる。</p>
-                </div>
-                <div class="comparison-card reveal">
-                    <span class="card-badge" style="background: #dbeafe; color: #3b82f6;">Data</span>
-                    <h3>会員が増えない…</h3>
-                    <p style="color: var(--text-secondary);">いきなり「会員登録」をお願いしてもハードルが高く、顧客リストがたまらない。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Solution Section -->
-    <section class="section">
-        <div class="container">
-            <div class="intro-header reveal">
-                <h2>「最適な人に、最適な場所で」<br><span class="gradient-text">3段階のステップ配信</span>で、<br>無理なく自社会員へエスコート。</h2>
-            </div>
-
-            <!-- Step 1 -->
-            <div class="solution-block reveal">
-                <div class="solution-visual">
-                    <div style="text-align: center;">
-                        <span style="font-size: 80px;">📱</span>
-                        <p style="font-weight: bold; margin-top: 10px;">LINE公式アカウント</p>
-                    </div>
-                </div>
-                <div class="solution-content">
-                    <span class="card-badge">Step 1：入り口は広く</span>
-                    <h3>LINE公式アカウントクーポン</h3>
-                    <p><strong>対象:</strong> 新規・ライト層</p>
-                    <p>友だち追加だけで即利用可能。まずは来店ハードルを下げ、最初の一歩を踏み出しやすくします。</p>
-                </div>
-            </div>
-
-            <!-- Step 2 -->
-            <div class="solution-block reverse reveal">
-                <div class="solution-visual">
-                    <div style="text-align: center;">
-                        <span style="font-size: 80px;">💳</span>
-                        <p style="font-weight: bold; margin-top: 10px;">PayPay連携</p>
-                    </div>
-                </div>
-                <div class="solution-content">
-                    <span class="card-badge">Step 2：決済でつなぐ</span>
-                    <h3>PayPay（決済連携）クーポン</h3>
-                    <p><strong>対象:</strong> 2回目〜のリピーター</p>
-                    <p>使い慣れた決済アプリでお得感を提供。日常的な利用の中で再来店を自然に定着させます。</p>
-                </div>
-            </div>
-
-            <!-- Step 3 -->
-            <div class="solution-block reveal">
-                <div class="solution-visual">
-                    <div style="text-align: center;">
-                        <span style="font-size: 80px;">👑</span>
-                        <p style="font-weight: bold; margin-top: 10px;">自社ミニアプリ</p>
-                    </div>
-                </div>
-                <div class="solution-content">
-                    <span class="card-badge">Step 3：ファンを作る</span>
-                    <h3>自社ミニアプリ会員証</h3>
-                    <p><strong>対象:</strong> 3回目〜のロイヤル層</p>
-                    <p>手数料ゼロの自社クーポンへ移行。特別待遇でファン化を完了させ、LTVを最大化します。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Benefit Section -->
-    <section class="section" style="background-color: var(--surface-color);">
-        <div class="container">
-            <div class="intro-header reveal">
-                <h2>導入メリット</h2>
-                <p>ビジネス視点での定量的な価値</p>
-            </div>
-            <div class="comparison-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
-                <div class="comparison-card reveal">
-                    <h3>1. 販促コストの最適化</h3>
-                    <p style="color: var(--text-secondary);">外部への送客手数料は「新規」に集中投資。定着したファンには「原資のみ」で還元し、ROIを最大化します。</p>
-                </div>
-                <div class="comparison-card reveal">
-                    <h3>2. レジ業務の効率化</h3>
-                    <p style="color: var(--text-secondary);">LINEミニアプリを開けば「今使えるクーポン」が自動表示。お客様も店員も迷わせません。</p>
-                </div>
-                <div class="comparison-card reveal">
-                    <h3>3. 顧客資産（ID）の獲得</h3>
-                    <p style="color: var(--text-secondary);">
-                        最終的に自社CRM（LINEミニアプリ）へ集約するため、プラットフォームに依存しない「自社の顧客データ」が蓄積されます。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Synergy Section -->
-    <section class="section">
-        <div class="container">
-            <div class="intro-header reveal">
-                <h2>豊富なパッケージ機能との掛け合わせで、<br><span class="gradient-text">効果はさらに加速する。</span></h2>
-            </div>
-            <div class="comparison-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
-                <div class="comparison-card reveal">
-                    <h3>× チャットボット<br><small style="font-size: 0.6em; color: var(--text-secondary);">（レシートレス連携）</small>
-                    </h3>
-                    <p style="color: var(--text-secondary);">
-                        POS連携がなくても大丈夫。来店後にボットが「今回の決済方法は？」と聞き、回答に合わせて次回のクーポンを自動で出し分けます。</p>
-                </div>
-                <div class="comparison-card reveal">
-                    <h3>× 抽選・ガチャ機能<br><small style="font-size: 0.6em; color: var(--text-secondary);">（ゲーム化）</small></h3>
-                    <p style="color: var(--text-secondary);">Step 2からStep
-                        3（本会員）への移行時に「会員登録でその場で当たるガチャ」を実施。楽しみながらスムーズに会員化へ誘導します。</p>
-                </div>
-                <div class="comparison-card reveal">
-                    <h3>× セグメント配信<br><small style="font-size: 0.6em; color: var(--text-secondary);">（離脱防止）</small></h3>
-                    <p style="color: var(--text-secondary);">「クーポンを使ったのに2回目が来ない」お客様を特定し、プッシュ通知でリマインド。タイミングを逃さず追客します。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Base Feature Section -->
-    <section class="section" style="background-color: var(--surface-color);">
-        <div class="container">
-            <div class="intro-header reveal">
-                <h2>基本機能・スペック</h2>
-                <p>本機能は、クラスメソッドの「グロースパック for LINE」の一環として提供されます。<br>基本機能もパッケージ化されており、<strong>安価かつ短期間</strong>での導入が可能です。
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="hero-catch">LINEクーポンの「限界」を突破する。</p>
+                <h1 class="hero-title">
+                    <span class="gradient-text no-break">開封率・来店率を最大化する<br>「高機能クーポンアセット」</span>
+                </h1>
+                <p class="hero-desc">
+                    スクラッチ開発不要。消込管理、抽選機能、高度な分析まで。<br>
+                    「Growth Pack for LINE」で、あなたのLINE公式アカウントをもっと強力な販促ツールへ。
                 </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-secondary">デモを体験してみる（実際の挙動を確認）</a>
+                </div>
             </div>
-            <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 40px;">
-                <span class="card-badge"
-                    style="background: white; border: 1px solid var(--border-color);">デジタル会員証</span>
-                <span class="card-badge"
-                    style="background: white; border: 1px solid var(--border-color);">順番待ち・予約</span>
-                <span class="card-badge"
-                    style="background: white; border: 1px solid var(--border-color);">1to1コミュニケーション</span>
-                <span class="card-badge"
-                    style="background: white; border: 1px solid var(--border-color);">スタンプカード</span>
-            </div>
-            <div style="text-align: center;" class="reveal">
-                <p>POSレジ連携、基幹システム連携、独自デザインへの変更も柔軟に対応します。</p>
+            <div class="hero-visual reveal">
+                <img src="hero.png" alt="クーポンアセット イメージ" class="hero-img">
             </div>
         </div>
     </section>
 
-    <!-- Use Case Section -->
-    <section class="section">
+    <!-- Challenges Section -->
+    <section class="section challenges" id="challenges">
         <div class="container">
-            <div class="intro-header reveal">
-                <h2>活用イメージ</h2>
-                <p>自分ごとのように感じてもらう事例紹介</p>
+            <div class="section-header text-center">
+                <h2 class="section-title">標準機能や既存ツールで、<br>こんな「もどかしさ」を感じていませんか？</h2>
             </div>
-            <div class="comparison-grid">
-                <div class="comparison-card reveal">
-                    <h3>飲食チェーンA社</h3>
-                    <p style="color: var(--text-secondary);">ランチ客のレジ回転率向上と、ディナー客への会員化促進を同時に実現。</p>
+            <div class="challenges-grid">
+                <div class="challenge-card reveal">
+                    <div class="challenge-icon">😴</div>
+                    <p><strong>飽き</strong><br>以前と同じクーポンばかりで、ユーザーの反応（開封率）が落ちてきた。</p>
                 </div>
-                <div class="comparison-card reveal">
-                    <h3>小売店B社</h3>
-                    <p style="color: var(--text-secondary);">PayPayキャンペーンで集めた新規客を、LINEミニアプリ会員へ80%移行することに成功。</p>
+                <div class="challenge-card reveal">
+                    <div class="challenge-icon">📊</div>
+                    <p><strong>データ不足</strong><br>「誰が・いつ・何を使ったか」の詳細なデータが取れず、次の施策に活かせない。</p>
+                </div>
+                <div class="challenge-card reveal">
+                    <div class="challenge-icon">💸</div>
+                    <p><strong>コスト</strong><br>オリジナルの抽選機能や消込機能を開発したいが、数百万単位のコストと時間がかかる。</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Flow & Support Section -->
-    <section class="section" style="background-color: var(--surface-color);">
+    <!-- Solutions Section -->
+    <section class="section solutions" id="solutions">
         <div class="container">
-            <div class="intro-header reveal">
-                <h2>導入までの流れ</h2>
+            <div class="section-header text-center">
+                <h2 class="section-title">その課題、<span class="gradient-text">「クーポンアセット」</span>なら、<br>低コスト・短納期で解決できます。</h2>
             </div>
-            <div style="max-width: 800px; margin: 0 auto;">
-                <ol class="comparison-list" style="counter-reset: flow-counter;">
-                    <li style="padding-left: 40px; margin-bottom: 30px;">
-                        <span
-                            style="position: absolute; left: 0; font-weight: bold; font-size: 1.2em; color: var(--accent-primary);">1.</span>
-                        <strong>ヒアリング・要件定義</strong>
-                        現在のクーポン施策の棚卸し
-                    </li>
-                    <li style="padding-left: 40px; margin-bottom: 30px;">
-                        <span
-                            style="position: absolute; left: 0; font-weight: bold; font-size: 1.2em; color: var(--accent-primary);">2.</span>
-                        <strong>カスタマイズ設計</strong>
-                        POS連携要否など
-                    </li>
-                    <li style="padding-left: 40px; margin-bottom: 30px;">
-                        <span
-                            style="position: absolute; left: 0; font-weight: bold; font-size: 1.2em; color: var(--accent-primary);">3.</span>
-                        <strong>開発・導入</strong>
-                    </li>
-                    <li style="padding-left: 40px; margin-bottom: 30px;">
-                        <span
-                            style="position: absolute; left: 0; font-weight: bold; font-size: 1.2em; color: var(--accent-primary);">4.</span>
-                        <strong>グロース支援</strong>
-                        KPI設定・運用改善提案
-                    </li>
-                </ol>
+
+            <div class="solutions-grid reveal">
+                <div class="solution-card">
+                    <h3>ゲーム性のある企画が<br>すぐに打てる</h3>
+                    <p>スクラッチ、ガチャ、抽選機能などを標準搭載。ユーザーを楽しませるエンタメ要素で、ブロック防止と開封率向上に貢献します。</p>
+                </div>
+                <div class="solution-card">
+                    <h3>確実な消込管理と<br>不正防止</h3>
+                    <p>「使用済み」ステータスを厳格に管理。「もぎり」機能により、店頭でのオペレーション負荷を軽減しつつ、不正利用を防ぎます。</p>
+                </div>
+                <div class="solution-card">
+                    <h3>ユーザー行動の<br>「見える化」</h3>
+                    <p>誰がクーポンを獲得し、実際に使用したかをID単位で追跡可能。このデータが、次のセグメント配信の精度を劇的に高めます。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Section -->
+    <section class="section comparison" id="comparison">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">機能比較</h2>
+                <p class="section-subtitle">競合や代替手段と比較し、本製品の「コストパフォーマンス」と「機能性」のバランスの良さを証明します。</p>
+            </div>
+            <div class="comparison-table-wrapper reveal">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>機能・項目</th>
+                            <th>LINE公式アカウント標準</th>
+                            <th>フルスクラッチ開発</th>
+                            <th class="highlight">本製品（クーポンアセット）</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>導入コスト</td>
+                            <td>無料〜</td>
+                            <td>数百万円〜</td>
+                            <td class="highlight"><strong>低コスト（アセット利用）</strong></td>
+                        </tr>
+                        <tr>
+                            <td>導入スピード</td>
+                            <td>即日</td>
+                            <td>3〜6ヶ月</td>
+                            <td class="highlight"><strong>最短2週間〜</strong></td>
+                        </tr>
+                        <tr>
+                            <td>消込管理</td>
+                            <td>簡易（自己申告）</td>
+                            <td>高機能</td>
+                            <td class="highlight"><strong>高機能（システム管理）</strong></td>
+                        </tr>
+                        <tr>
+                            <td>抽選・ガチャ</td>
+                            <td>簡易機能のみ</td>
+                            <td>自由自在</td>
+                            <td class="highlight"><strong>テンプレートで実装可能</strong></td>
+                        </tr>
+                        <tr>
+                            <td>データ分析</td>
+                            <td>統計情報のみ</td>
+                            <td>詳細分析可</td>
+                            <td class="highlight"><strong>ID単位で詳細分析可</strong></td>
+                        </tr>
+                        <tr>
+                            <td>UIカスタマイズ</td>
+                            <td>定型フォーマット</td>
+                            <td>自由</td>
+                            <td class="highlight"><strong>柔軟（ブランドカラー対応）</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="section use-cases" id="use-cases">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">活用シーン</h2>
+                <p class="section-subtitle">自社での利用イメージを具体化させる</p>
+            </div>
+            <div class="use-cases-grid">
+                <div class="use-case-card reveal">
+                    <div class="use-case-header">
+                        <span class="use-case-tag">小売・アパレル</span>
+                        <h3>ハズレなしの毎日ガチャで来店促進</h3>
+                    </div>
+                    <p>1日1回引けるガチャクーポンを配信。Webサイトへの再訪を促し、ECサイトと実店舗の回遊性を強化。</p>
+                </div>
+                <div class="use-case-card reveal">
+                    <div class="use-case-header">
+                        <span class="use-case-tag">飲食・サービス業</span>
+                        <h3>雨の日限定クーポンを即時発行</h3>
+                    </div>
+                    <p>客足が鈍るタイミングに合わせて、時間限定・枚数限定の特別クーポンを配信し、空席を埋める。</p>
+                </div>
+                <div class="use-case-card reveal">
+                    <div class="use-case-header">
+                        <span class="use-case-tag">イベント・キャンペーン</span>
+                        <h3>会員限定の特別抽選会</h3>
+                    </div>
+                    <p>既存会員のみが参加できるプレミアムな抽選クーポンを配布し、ロイヤリティを向上。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-content reveal">
+                <h2 class="section-title">LINE活用のすべてを網羅する<br>「Growth Pack for LINE」</h2>
+                <p class="about-lead">単体ツールではなく「拡張性の高いパッケージ」の一部</p>
+                <p>本クーポンアセットは、LINEマーケティングを加速させるモジュール群「Growth Pack for LINE」の一つです。必要な機能を、必要なタイミングで組み合わせて導入可能です。</p>
+
+                <div class="synergy-section">
+                    <h3 class="synergy-title">他アセットとのシナジー（ここが最強の強み）</h3>
+                    <div class="synergy-grid">
+                        <div class="synergy-card">
+                            <h4>＋ 会員証アセット</h4>
+                            <p>デジタル会員証と連携し、「ランクに応じたクーポンの出し分け」を実現。優良顧客への特別待遇を自動化します。</p>
+                        </div>
+                        <div class="synergy-card">
+                            <h4>＋ セグメント配信</h4>
+                            <p>「クーポンを使用した人」「使用しなかった人」を自動でセグメント化。追撃メッセージや、次回キャンペーンのターゲット精度を極限まで高めます。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flow Section -->
+    <section class="section flow" id="flow">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">導入フロー・サポート</h2>
+                <p class="section-subtitle">導入への不安を払拭し、スムーズな開始をイメージさせる</p>
+            </div>
+            <div class="flow-steps">
+                <div class="flow-step reveal">
+                    <div class="step-number">01</div>
+                    <h3>ヒアリング</h3>
+                    <p>貴社の現状の課題と、実現したいキャンペーン内容をヒアリングします。</p>
+                </div>
+                <div class="flow-step reveal">
+                    <div class="step-number">02</div>
+                    <h3>要件定義・カスタマイズ</h3>
+                    <p>必要な機能（ガチャ、消込方式など）を選定し、デザインや設定項目を決定します。</p>
+                </div>
+                <div class="flow-step reveal">
+                    <div class="step-number">03</div>
+                    <h3>開発・導入</h3>
+                    <p>アセットベースのため、ゼロからの開発は不要。短期間でのセットアップと動作検証を行います。</p>
+                </div>
+                <div class="flow-step reveal">
+                    <div class="step-number">04</div>
+                    <h3>グロース支援</h3>
+                    <p>リリース後のデータ分析や、効果的なクーポン施策の改善提案まで伴走します。</p>
+                </div>
             </div>
         </div>
     </section>
@@ -269,16 +251,15 @@
     <footer class="footer" id="contact">
         <div class="container">
             <div class="footer-cta reveal">
-                <h2>クーポン戦略を見直して、<br><span class="gradient-text">利益率の高い店舗経営へ。</span></h2>
-                <p style="margin-bottom: 40px; color: var(--text-secondary);">まずは現状の課題をお聞かせください。</p>
-                <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
-                    <a href="#" class="btn btn-primary">サービス資料をダウンロード</a>
-                    <a href="#" class="btn"
-                        style="background: white; border: 1px solid var(--border-color);">お問い合わせ・見積もり依頼</a>
+                <h2 class="footer-title">まずは、実際の操作感をお試しください。</h2>
+                <p class="footer-desc">貴社のLINE公式アカウントで、どのようなキャンペーンが可能か、デモ画面を見ながらご提案します。</p>
+                <div class="footer-buttons">
+                    <a href="#" class="btn btn-primary btn-lg">お問い合わせ・お見積もり</a>
+                    <a href="#" class="btn btn-secondary btn-lg">資料ダウンロード（無料）</a>
                 </div>
             </div>
             <div class="company-info">
-                <p>&copy; Classmethod, Inc.</p>
+                <p>クラスメソッド株式会社 (Classmethod, Inc.)</p>
             </div>
         </div>
     </footer>
